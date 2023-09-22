@@ -7,7 +7,7 @@ const Modal = ({ onClose, isOpen, children }) => {
     <>
         {isOpen && (
         <>
-            <div className='m-auto relative z-50 min-h-[200px] max-w-[80%] bg-white'>
+            <div className='m-auto relative z-50 min-h-[215px] max-w-[80%] bg-white rounded-lg'>
                 <div className='flex justify-end p-2'>
                     <FaWindowClose onClick={onClose} className='cursor-pointer text-2xl'/>
                 </div>
